@@ -1,0 +1,33 @@
+##
+#  oooo    oooo                                oooooooooooo oooo
+#  `888   .8P'                                 `888'     `8 `888
+#   888  d8'    oooo d8b  .ooooo.  ooo. .oo.    888          888  oooo    ooo
+#   88888[      `888""8P d88' `88b `888P"Y88b   888oooo8     888   `88.  .8'
+#   888`88b.     888     888   888  888   888   888    "     888    `88..8'
+#   888  `88b.   888     888   888  888   888   888          888     `888'
+#  o888o  o888o d888b    `Y8bod8P' o888o o888o o888o        o888o     .8'
+#                                                                 .o..P'
+#                                                                 `Y8P'
+##
+
+##
+# Configuration for disallowed worlds
+# Add worlds where flight should be disabled
+##
+disallowed-worlds:
+  - "test"
+
+
+##
+# Configuration for messages
+# You can customize these messages to fit your server's language and style
+##
+messages:
+  fly-opened: "§aFlying mode activated."
+  fly-closed: "§cFlying mode deactivated."
+  fly-error-already-flying: "§eYou are already flying."
+  other-fly-player-not-found: "§cPlayer not found."
+  other-fly-player-enable: "§aFlying has been enabled for {player}."
+  other-fly-player-disable: "§cFlying has been disabled for {player}."
+  command-only-for-players: "§cThis command can only be used by players."
+  no-permission: "§cYou don't have permission to use this command."
