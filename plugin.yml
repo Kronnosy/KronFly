@@ -1,0 +1,28 @@
+##
+#  oooo    oooo                                oooooooooooo oooo
+#  `888   .8P'                                 `888'     `8 `888
+#   888  d8'    oooo d8b  .ooooo.  ooo. .oo.    888          888  oooo    ooo
+#   88888[      `888""8P d88' `88b `888P"Y88b   888oooo8     888   `88.  .8'
+#   888`88b.     888     888   888  888   888   888    "     888    `88..8'
+#   888  `88b.   888     888   888  888   888   888          888     `888'
+#  o888o  o888o d888b    `Y8bod8P' o888o o888o o888o        o888o     .8'
+#                                                                 .o..P'
+#                                                                 `Y8P'
+##
+name: KronFly
+main: Kronnosy\KronFly\KronFly
+
+api: 5.0.0
+version: 1.0.0
+
+author: "Kronnosy"
+website: "https://github.com/Kronnosy"
+description: "A simple yet powerful flight plugin, allowing players to toggle flight mode with ease."
+
+permissions:
+  kronfly.command.fly.use:
+    default: op
+    description: "Allows the player to use their own flight commands."
+  kronfly.command.fly.others:
+    default: op
+    description: "Allows the player to enable or disable flight for others."
